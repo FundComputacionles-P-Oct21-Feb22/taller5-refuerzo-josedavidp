@@ -1,0 +1,46 @@
+//Miniespecificacion
+
+1. Inicio
+2. tipoVehiculo, x(n)[{a-z}, {A-Z}])
+3. precioJuego, d[0, n]
+4. numeroJuego, i[0, n]
+5. descuento, d[0, n]
+6. porcentaje_1, d[0, n]
+7. porcentaje_2, d[0, n]
+8. porecntaje_3, d[0, n]
+5. subtotal, d[0, n]
+6. valorTotal, d[0, n]
+
+10. porcentaje 1 <-- 10
+11. porcentaje 2 <-- 20 
+12. porcentaje 3 <-- 30
+
+13. Escribir "Ingrese el tipo de vehículo: "
+14. Leer tipoVehiculo
+
+15. Escribir "Ingrese el precio del juego de llantas: "
+16. Leer precioJuego
+
+15. Escribir "Ingrese el número de juegos de llantas: "
+16. Leer numeroJuego
+
+17. subtotal <-- precioJuego * numeroJuego
+
+18. Si tipoVehiculo <-- auto
+19. 	descuento <-- (porcentaje_1 * subtotal)/100
+20. 	valorTotal <-- subtotal - descuento
+22.   Fin Si
+
+23. 	Si tipoVehiculo <-- camioneta
+24. 		descuento <-- (porcentaje_2 * subtotal)/100
+25. 		valorTotal <-- subtotal - descuento
+27.   Fin Si
+
+28. 	Si tipoVehiculo <-- bus
+29. 		descuento <-- (porcentaje_3 * subtotal)/100
+30. 		valorTotal <-- subtotal - descuento
+35.    Fin Si     
+
+22. Escribir "El subtotal es de: " + subtotal + " y el total a pagar es de: " + valorTotal
+37. Fin
+
